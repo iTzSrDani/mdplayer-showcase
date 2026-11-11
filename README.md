@@ -113,9 +113,9 @@ flowchart LR
 - **Smooth on 1 GB devices.** I virtualized images in long grids so memory stays
   flat while scrolling. I also scoped spatial-navigation containers so each
   D-pad press is no longer O(N) over every card on screen.
-- **Licensing that fails open.** If the server is unreachable, TVs keep working
-  on their last valid license for 7 days. An outage on our side never blacks
-  out paying customers. A new activation unlocks a TV in under a minute.
+- **Instant activation.** The license travels with every device heartbeat, so
+  a new payment unlocks the TV in under a minute without the customer touching
+  anything.
 - **Privacy by design.** Recommendations are computed entirely on the TV. The
   server never learns what anyone watches.
 - **Store-safe builds by construction.** Self-update is compiled only into the
